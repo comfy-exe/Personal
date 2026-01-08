@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="register.css"> -->
+     <style>
+        * {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    background: url("images/Crossover_2.jpeg");
+    background-size: cover;
+}
+
+.title {
+    background-color: #fff;
+    color: crimson;
+    width: 51%;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-width: 0.3rem;
+    border-style:ridge;
+    border-color: crimson;
+    padding: 1rem;
+    margin: 5rem 0 10rem 20rem;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.back_link {
+    text-decoration: none;
+    color: crimson;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.back_link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.info_container {
+    background-color: white;
+    width: 20%;
+    height: 20rem;
+    border-radius: 20px;
+    border-width: 1rem;
+    border-style:ridge;
+    border-color: crimson;
+}
+
+.info_container p {
+    font-size: large;
+    padding: 1rem;
+}
+
+.details_container {
+    margin-left: 20rem;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.label {
+    color: crimson;
+    margin: 2rem;
+}
+
+.details {
+    background-color: #fff;
+    margin-bottom: 5rem;
+    border-width: 0.3rem;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: crimson;
+}
+
+.details_input {
+    margin-left: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 1rem;
+    width: 22rem;
+    height: 2rem;
+    border-radius: 10px;
+    border-color: crimson;
+}
+
+.details_input_check {
+    margin-left: 3rem;
+}
+
+.details_input_check_2 {
+    margin-left: 3.3rem;
+}
+
+.register {
+    margin:0 0 2rem 35rem;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+.register:hover {
+    transform: scale(0.95, 0.95);
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+}
+     </style>
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <div style="width: 100%; height: 5rem; border-radius: 10px; background-color: white; display: flex; align-items: center; justify-content: space-between;">
+        <a href="Home.html" class="back_link">Home</a>
+    </div>
+    <h1 class="title">VALENTINE'S DAY ACTIVITY REGISTRATION</h1>
+    <div class="wrapper">
+        <div class="info_container">
+            <p>
+                This is the official registration page for the upcoming Blantyre Stake Valentine's Day Activity, to be held on the February 14th, 2026.
+                <br>
+                <br>
+                Enter all your details, as credibly as possible. 
+                <br>
+                <br>
+                LET US SPREAD JOY AND LOVE, THIS VALENTINE'S DAY ! ! ! !
+            </p>
+        </div>
+        <div class="details_container">
+            <div class="details">
+                <h2 style="color: crimson; margin-left: 12rem;">Personal Details</h2>
+                <label for="first_name" class="label">First Name:</label>
+                <br>
+                <input type="text" class="details_input">
+                <br>
+                <br>
+                <label for="last name" class="label">Last Name:</label>
+                <br>
+                <input type="text" class="details_input">
+                <br>
+                <br>
+                <label for="Date of birth" class="label">Date of Birth</label>
+                <br>
+                <input type="date" name="Date of birth" class="details_input">
+                <br>
+                <br>
+                <label for="Membership" class="label">Are you a Member of the church?</label>
+                <br>
+                <label for="Yes" class="label">Yes</label>
+                <input type="checkbox" name="Yes" class="details_input_check">
+                <br>
+                <label for="No" class="label">No</label>
+                <input type="checkbox" name="" class="details_input_check_2">
+                <br>
+                <br>
+            </div>
+            <div class="details">
+                <h2 style="color: crimson; margin-left: 12rem;">Contact Details</h2>
+                <label for="email" class="label">Enter your Email address:</label>
+                <br>
+                <input type="email" name="email" class="details_input" placeholder="    person@example.com">
+                <br>
+                <br>
+                <label for="phone" class="label">Enter your Phone number:</label>
+                <br>
+                <input type="tel" name="" class="details_input">
+                <br>
+                <br>
+            </div>
+            <button class="register"><a href="Confirmation.html">Proceed</a></button>
+        </div>
+    </div>
+</body>
+</html>
